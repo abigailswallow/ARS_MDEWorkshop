@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inconsolata', monospace;
+  background-color: #15303a;
+  color: white;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  margin: 30px 50px;
+  font-size: 24pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+section {
+  margin-top: 5%;
+}
+
+#chart {
+  width: 500px;
+  height: 500px;
+  margin-left: 15%;
+  display: inline-block;
+}
+
+#legend_container{
+  display: inline-block;
+}
+
+#legend{
+  width: 710px;
+  height: 270px;
+  margin-left: -5%;
+}
+
+.description {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+
+.axisLabel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+}
+
+.axis {
+  font-size: 9pt;
+}
+
+#btn {
+  font-size: 14px;
+  color: blue;
+  background-color: white;
+}
